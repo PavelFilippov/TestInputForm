@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">TestInputForm</string>
+
+    <string name="need_to_select_identifier">Необходимо выбрать тип идентификатора</string>
+    <string name="identifier_type">Тип идентификатора</string>
+    <string name="select_identifier_type">Выберите тип идентификатора</string>
+    <string name="bic">БИК</string>
+    <string name="enter_bic">Введите БИК</string>
+    <string name="wrong_bic">Неверный БИК</string>
+    <string name="wrong_value">Неверное значение</string>
+    <string name="account_number">Номер счета</string>
+    <string name="enter_account_number">Введите номер счёта</string>
+    <string name="card_number">Номер карты</string>
+    <string name="wrong_card_number">Неверный номер карты</string>
+    <string name="enter_card_number">Введите номер карты</string>
+    <string name="need_payment_type">Необходимо выбрать тип платежа</string>
+    <string name="payment_type">Тип платежа</string>
+    <string name="select_payment_type">Выберите тип платежа</string>
+    <string name="account_owner_last_name">Фамилия владельца счета</string>
+    <string name="enter_last_name">Введите фамилию</string>
+    <string name="account_owner_first_name">Имя владельца счета</string>
+    <string name="enter_first_name">Введите имя</string>
+    <string name="account_owner_middle_name">Отчество владельца счета</string>
+    <string name="enter_middle_name">Введите отчество</string>
+    <string name="proceed">Продолжить</string>
+
+    <string-array name="identifier_types">
+        <item>Номер карты</item>
+        <item>Номер счета</item>
+    </string-array>
+
+    <string-array name="payment_types">
+        <item>Обычный платеж</item>
+        <item>Срочный платеж</item>
+    </string-array>
+
+</resources>

@@ -20,13 +20,13 @@ import java.util.regex.Pattern
 
 class MainActivity : AppCompatActivity() {
 
-    // Initialize regex
+// Initialize regex
     private val cardNumberRegex = "^\\d{4} \\d{4} \\d{4} \\d{4,7}\$"
     private val bicRegex = "^\\d{9}\$"
     private val accountNumberRegex = "^\\d{20}\$"
     private val nameRegex = "^[а-яА-Я\\\\-\\\\s]{2,40}\$"
 
-    // Initialize disposables for card and account selections
+// Initialize disposables for card and account selections
     private var cardDisposable = CompositeDisposable()
     private var accountDisposable = CompositeDisposable()
 
@@ -51,7 +51,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-//Initialize Identifier spinner
+        //Initialize Identifier spinner
 
         val identifierSpinnerAdapter = ArrayAdapter<String>(
             this,
@@ -80,7 +80,7 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-//Initialize Payment spinner on Account Identifier
+        //Initialize Payment spinner on Account Identifier
 
         val paymentSpinnerAdapter = ArrayAdapter<String>(
             this,
